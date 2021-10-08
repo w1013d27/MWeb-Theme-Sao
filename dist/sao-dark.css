@@ -211,6 +211,9 @@ body:before {
   border-radius: 3px;
   word-wrap: break-word;
 }
+.markdown-body p > code:first-child {
+  margin-left: 0;
+}
 .markdown-body pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
@@ -431,5 +434,6 @@ body:before {
   /* hide standard table (collapsed) border */
   box-shadow: 0 0 0 2px #666;
   /* this draws the table border  */
+  width: 100%;
 }
 /*# sourceMappingURL=sao-dark.css.map */
